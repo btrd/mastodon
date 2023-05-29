@@ -101,6 +101,9 @@ gem 'rdf-normalize', '~> 0.5'
 
 gem 'private_address_check', '~> 0.5'
 
+gem 'sentry-ruby'
+gem 'sentry-rails'
+
 group :test do
   # RSpec runner for rails
   gem 'rspec-rails', '~> 6.0'
