@@ -1,4 +1,5 @@
-web: bin/heroku-web
+web: rails db:create db:schema:load; rails server
+# web: bin/heroku-web
 worker: bundle exec sidekiq
 
 # For the streaming API, you need a separate app that shares Postgres and Redis:
